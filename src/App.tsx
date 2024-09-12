@@ -8,7 +8,7 @@ const App: React.FC = () => {
   return (
     <Router>
       <Routes>
-      <Route path="/events" element={<EventList />} />
+      <Route path="/" element={<EventList />} />
         <Route path="/events/new" element={<CreateEvent />} />
         <Route path="/events/:id/edit" element={<EditEvent />} />
       </Routes>
