@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://damp-escarpment-75226-e51e64ebca86.herokuapp.com/events'; // Update with your Rails API URL
+const API_URL = 'https://event-management-backend-dc9fee2dd478.herokuapp.com/events'; // Update with your Rails API URL
 
 export const getEvents = () => {
   return axios.get(API_URL);
